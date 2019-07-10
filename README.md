@@ -143,5 +143,8 @@ Place them anywhere inside your `jsdoc.json` file.
 ## Thanks
 Thanks to [lodash](https://lodash.com) and [minami](https://github.com/nijikokun/minami).
 
+## Change Description
+Modify css style sheet by anderlu.
+
 ## License
 Licensed under the Apache License, version 2.0. (see [Apache-2.0](LICENSE.md)).
