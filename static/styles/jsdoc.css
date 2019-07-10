@@ -254,6 +254,12 @@ nav > h2 > a {
    color: #000 !important;
 }
 
+nav ul ul li .nav-separator{
+  /* padding-left: 20px; */
+  color: #000;
+  font-size: 12px;
+}
+
 footer {
   color: hsl(0, 0%, 28%);
   margin-left: 250px;
