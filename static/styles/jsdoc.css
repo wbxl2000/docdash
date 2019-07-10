@@ -234,7 +234,8 @@ nav > ul > li > a {
 }
 
 nav ul ul a {
-  color: hsl(207, 1%, 60%);
+  /* color: hsl(207, 1%, 60%); */
+  color: #000;
   border-left: 1px solid hsl(207, 10%, 86%);
 }
 
@@ -256,8 +257,10 @@ nav > h2 > a {
 
 nav ul ul li .nav-separator{
   /* padding-left: 20px; */
-  color: #000;
+  /* color: #000; */
+  color: hsl(207, 1%, 60%);
   font-size: 12px;
+  border-left: 1px solid hsl(207, 10%, 86%);
 }
 
 footer {
