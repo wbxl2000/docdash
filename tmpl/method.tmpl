@@ -24,13 +24,13 @@ var self = this;
     <?js } ?>
 <?js } ?>
 
-<?js= this.partial('details.tmpl', data) ?>
-
 <?js if (data.kind !== 'module' && data.description) { ?>
 <div class="description">
     <?js= data.description ?>
 </div>
 <?js } ?>
+
+<?js= this.partial('details.tmpl', data) ?>
 
 <?js if (data.augments && data.alias && data.alias.indexOf('module:') === 0) { ?>
     <h5>Extends:</h5>
