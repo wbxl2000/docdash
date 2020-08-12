@@ -120,7 +120,7 @@ h6 {
 }
 
 tt, code, kbd, samp {
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: Consolas, Monaco, sans-serif, 'Andale Mono', monospace;
   background: #f4f4f4;
   padding: 1px 5px;
 }
@@ -453,7 +453,7 @@ thead tr, thead tr {
 
 .params td, .params .name, .props .name, .name code {
    color: #4D4E53;
-   font-family: Consolas, Monaco, 'Andale Mono', monospace;
+   font-family: Consolas, Monaco, sans-serif, 'Andale Mono', monospace;
    font-size: 100%;
 }
 
@@ -473,7 +473,7 @@ thead tr, thead tr {
 
 span.param-type, .params td .param-type, .param-type dd {
    color: #f00;
-  font-family: Consolas, Monaco, 'Andale Mono', monospace
+  font-family: Consolas, Monaco, sans-serif, 'Andale Mono', monospace
 }
 
 .param-type dt, .param-type dd {
