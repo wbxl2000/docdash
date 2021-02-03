@@ -1,0 +1,27 @@
+/* toc 相关样式 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css');
+
+section {
+  display: flex !important;
+}
+.toc-link::before {
+  width: 3px !important;
+}
+.is-active-link::before {
+  background-color: #00a4ff !important;
+}
+#toc-container {
+  width: 300px;
+  max-height: 80vh;
+  background: #fff;
+  overflow-y: auto;
+  position: sticky;
+  top: 100px;
+  margin-left: 12px;
+}
+.toc-link::before {
+  height: 30px;
+}
+.toc-list {
+  list-style-type: none;
+}
