@@ -1,5 +1,4 @@
 @import url(font.css);
-@import url(toc.css);
 
 * {
   box-sizing: border-box
@@ -76,6 +75,7 @@ h1.page-title {
 h2 {
   font-size: 24px;
   margin: 1.5em 0 .3em;
+  font-weight: bold;
 }
 
 h3 {
@@ -362,7 +362,6 @@ footer {
 }
 
 .prettyprint.source {
-  width: inherit;
   line-height: 18px;
   display: block;
   background-color: #0d152a;
