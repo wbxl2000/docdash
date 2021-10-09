@@ -3,12 +3,12 @@
 // 给 tutorials 文章新增目录功能
 if (location.href.includes('tutorial')) {
 
-  var link = document.createElement('link');
-  link.type = 'text/css';
-  link.rel = 'stylesheet';
-  link.href = 'styles/toc.css';
-  var head = document.getElementsByTagName('head')[0];
-  head.appendChild(link);
+  // var link = document.createElement('link');
+  // link.type = 'text/css';
+  // link.rel = 'stylesheet';
+  // link.href = 'styles/toc.css';
+  // var head = document.getElementsByTagName('head')[0];
+  // head.appendChild(link);
 
   const tocContainer = document.createElement('div');
   tocContainer.setAttribute('id', 'toc-container');

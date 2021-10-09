@@ -55,27 +55,25 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
 }
 
 h1 {
-  font-weight: 300;
-  font-size: 48px;
+  font-size: 38px;
   margin: 1em 0 .5em;
 }
 
 h1.page-title {
-  font-size: 48px;
+  font-size: 38px;
   margin: 1em 30px;
   line-height: 100%;
   word-wrap: break-word;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 1.5em 0 .3em;
-  font-weight: bold;
 }
 
 h3 {
@@ -84,7 +82,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 1em 0 .2em;
   color: #4d4e53;
 }
@@ -191,7 +189,7 @@ nav.wrap a{
 
 nav h3 {
   margin-top: 12px;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -213,10 +211,10 @@ nav ul {
 nav ul a,
 nav ul a:active {
   font-family: 'Montserrat', sans-serif;
-  line-height: 18px;
+  line-height: 26px;
   padding: 0;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 nav a:hover,
@@ -246,7 +244,7 @@ nav ul ul a:active {
 }
 
 nav h2 {
-   font-size: 13px;
+   font-size: 16px;
    margin: 10px 0 0 0;
    padding: 0;
 }
@@ -254,6 +252,7 @@ nav h2 {
 nav > h2 > a {
    margin: 10px 0 -10px;
    color: #000 !important;
+   font-weight: bold;
 }
 
 nav ul ul li .nav-separator{
@@ -387,12 +386,16 @@ footer {
   padding-top: 15px
 }
 
+.prettyprint .linenums li:last-of-type code {
+  padding-bottom: 15px;
+}
+
 .prettyprint code span.line {
   display: inline-block
 }
 
 .prettyprint.linenums {
-  padding-left: 70px;
+  padding-left: 60px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

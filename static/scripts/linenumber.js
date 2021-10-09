@@ -23,6 +23,3 @@
         }
     }
 })();
-
-document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js'></script>");
-document.write("<script src='scripts/add-toc.js'></script>");
