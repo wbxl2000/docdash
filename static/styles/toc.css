@@ -32,3 +32,13 @@ section article {
 .toc-list {
   list-style-type: none;
 }
+
+@media screen and (max-width:1024px){
+  section article {
+   width: 100%;
+  }
+  /* 小屏不显示目录 */
+  #toc-container {
+    display: none;
+  }
+}
