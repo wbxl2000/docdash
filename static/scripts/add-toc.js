@@ -1,7 +1,7 @@
 /* eslint-disable no-inner-declarations */
 /* eslint-disable require-jsdoc */
 // 给 tutorials 文章新增目录功能
-if (location.href.includes('tutorial')) {
+if (location.href.includes('tutorial') && typeof tocbot !== 'undefined') {
 
   // var link = document.createElement('link');
   // link.type = 'text/css';
