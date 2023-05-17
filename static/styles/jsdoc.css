@@ -744,3 +744,25 @@ html[data-search-mode] .level-hide {
 #disqus_thread {
   margin-left: 30px;
 }
+
+pre {
+  position: relative;
+}
+
+pre>.copy-button {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+  color: #aaa;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  user-select: none;
+}
+
+pre>.copy-button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
