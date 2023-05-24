@@ -62,16 +62,16 @@
     <thead>
     <tr>
         <?js if (params.hasName) {?>
-        <th>名称</th>
+        <th>Name</th>
         <?js } ?>
 
-        <th>类型</th>
+        <th>Type</th>
 
         <?js if (params.hasDefault) {?>
         <th>Default</th>
         <?js } ?>
 
-        <th class="last">说明</th>
+        <th class="last">Description</th>
     </tr>
     </thead>
 
@@ -103,7 +103,7 @@
 
             <td class="description last">
             <?js if (!param.optional) { ?>
-                    <code class="type">必填</code>
+                    <code class="type">required</code>
                 <?js } ?>
             <?js= param.description ?>
             <?js if (param.subparams) { ?>

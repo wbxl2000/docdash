@@ -229,7 +229,8 @@ nav ul {
 
 nav ul a,
 nav ul a:active {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', arial, sans-serif;
   line-height: 26px;
   padding: 0;
   display: block;
