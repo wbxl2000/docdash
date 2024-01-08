@@ -30,7 +30,7 @@ if (location.href.includes('tutorial') && typeof tocbot !== 'undefined') {
     // Where to grab the headings to build the table of contents.
     contentSelector: 'article',
     // Which headings to grab inside of the contentSelector element.
-    headingSelector: 'h1, h2',
+    headingSelector: 'h1, h2, h3',
     // For headings inside relative or absolute positioned containers within content.
     hasInnerContainers: false
   });
